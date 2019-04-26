@@ -66,4 +66,10 @@ const SectionContainer = styled.section`
     float: right;
     margin-left: 12px;
   }
+
+  .float-right {
+    width: 50%;
+    float: right;
+    margin: 24px 0 12px 12px;
+  }
 `

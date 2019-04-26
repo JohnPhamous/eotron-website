@@ -8,31 +8,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Section } from "../components/shared"
 import TechTable from "../components/technology/TechTable"
+import ComparisonTable from "../components/technology/Comparison"
 import Hero from "../components/home/hero"
 import HeroImage from "../images/hero2.jpg"
-import scanuvPackage from "../images/scanuv-package.png"
-import typicalPackage from "../images/typical-package.png"
-import Table from "../components/shared/table"
-
-const thermalImages = [
-  "https://i.imgur.com/Mxfp7YD.png",
-  "https://i.imgur.com/U2huTQx.png",
-  "https://i.imgur.com/olRlpMM.png",
-  "https://i.imgur.com/G0TOw1f.png",
-]
-
-const opticalImages = [
-  "https://i.imgur.com/xAyZIjg.png",
-  "https://i.imgur.com/8tUYGqR.png",
-  "https://i.imgur.com/mV1rQ6i.png",
-]
-
-const moduleImages = [
-  "https://i.imgur.com/wSD22Iz.jpg",
-  "https://i.imgur.com/PP58cVJ.jpg",
-  "https://i.imgur.com/gRxWQHy.jpg",
-  "https://i.imgur.com/qbHYv6D.jpg",
-]
+import { ListGroup, ListGroupItem } from "shards-react"
 
 const IndexPage = () => (
   <Layout>
@@ -42,119 +21,82 @@ const IndexPage = () => (
 
     <Section>
       <h3>Our Technology</h3>
+      <img
+        src="https://i.imgur.com/QENdQa3.jpg"
+        alt="Heat Sink"
+        className="float-right"
+      />
       <p>
-        Our Silicon package technology allows us to bring the thermal
-        conductivity of Silicon up to 149 W/mK by doping the wafer in which the
-        packages are manufactured. This doping allows for a package with much
-        better thermal performance when compared to the commonly used Aluminum
-        Nitrate (AlN) packages. Aluminum Nitrate can have thermal conductivity
-        between 83 - 170 W/mK, but using high thermal conductivity AlN can
-        greatly increase the price of the package, so most manufactures must use
-        lower thermal conductivity values to make products affordable.
+        Silicon plays a critical role in today’s electronic industry with its
+        primary use in the IC and Solar industry. In last half century Silicon
+        has revolutionized the technology industry, first by replacing vacuum
+        tubes with solid-state transistors and then integrated circuits, whose
+        size, complexity and performance has improved exponentially. However,
+        modern thermal management of compact electronic or photonic devices
+        still relies mainly on metal heat-sinks, heat-spreaders or ceramics to
+        remove waste heat. Metal or ceramic heat-sinks or heat-spreaders can
+        provide adequate performance given significant space and weight
+        allowances. However, Silicon, as a bulk material, can provide improved
+        performance and add value in solving modern thermal management issues.
+      </p>
+      <p>
+        As the Silicon transistor replaced the vacuum tube after the invention
+        of the transistor in 1947, metal heat-sinks will be replaced by superior
+        materials in the near future due to better thermal performance,
+        mass-production, compact size and light weight. Silicon is one such
+        material and will cause a paradigm-shift in modern thermal management.
       </p>
     </Section>
 
     <Section background="#C1C8E4">
       <Fade>
         <TechTable />
+        <ComparisonTable />
       </Fade>
-
-      <TableImageContainer>
-        <div>
-          <img src={scanuvPackage} alt="ScanUV Package" />
-          <p>ScanUV Package</p>
-        </div>
-        <div>
-          <img src={typicalPackage} alt="Typical Package" />
-          <p>Typical Package</p>
-        </div>
-      </TableImageContainer>
     </Section>
 
     <Section>
-      <Bounce left>
-        <h3 id="services">Our Services</h3>
-
-        <h4 id="thermal-analysis">Thermal Analysis</h4>
-
-        <ImagesContainer>
-          {thermalImages.map(i => (
-            <ImageZoom
-              image={{
-                src: i,
-                alt: "",
-                className: "img",
-              }}
-              zoomImage={{
-                src: i,
-                alt: "",
-              }}
-              key={i}
-            />
-          ))}
-        </ImagesContainer>
-
-        <p>
-          ScanUV conducts thermal analysis of its packages and provides services
-          to its customers so they are assured their heat dissipation methods
-          are appropriate for the intended application of our packages. We can
-          simulate scenarios of free convection, forced convection, and water
-          cooling.
-        </p>
-      </Bounce>
-
       <Bounce right>
-        <h4 id="optical-design">Optical Design</h4>
+        <h4>Silicon Thermal Package Advantages</h4>
 
-        <ImagesContainer>
-          {opticalImages.map(i => (
-            <ImageZoom
-              image={{
-                src: i,
-                alt: "",
-                className: "img",
-              }}
-              zoomImage={{
-                src: i,
-                alt: "",
-              }}
-              key={i}
-            />
-          ))}
-        </ImagesContainer>
-
-        <p>
-          ScanUV provides optical design services to ensure the use of our
-          packages meets our customers optical requirements, whether those are
-          uniform intensity or long distance light propagation.
-        </p>
+        <ListGroup>
+          <ListGroupItem>
+            High Thermal Conductivity (> Aluminum Alloy)
+          </ListGroupItem>
+          <ListGroupItem>Non-electrical Conduction</ListGroupItem>
+          <ListGroupItem>
+            Mass Production (> Million Piece per Lot, Low Cost Chemical Etching)
+          </ListGroupItem>
+          <ListGroupItem>
+            Small Feature Size (10 μm Size or Below)
+          </ListGroupItem>
+          <ListGroupItem>3D Structure Fabrication</ListGroupItem>
+          <ListGroupItem>Precision Part Tolerance (Below 2μm) </ListGroupItem>
+          <ListGroupItem>
+            Good Surface Finish for Better Thermal Contact
+          </ListGroupItem>
+          <ListGroupItem>Direct IC Layout on Silicon Substrate</ListGroupItem>
+          <ListGroupItem>Matched Coefficient of Expansion (ICs)</ListGroupItem>
+        </ListGroup>
       </Bounce>
 
       <Bounce left>
-        <h4 id="custom-module-design">Custom Module Design</h4>
-
-        <ImagesContainer>
-          {moduleImages.map(i => (
-            <ImageZoom
-              image={{
-                src: i,
-                alt: "",
-                className: "img",
-              }}
-              zoomImage={{
-                src: i,
-                alt: "",
-              }}
-              key={i}
-            />
-          ))}
-        </ImagesContainer>
+        <h4>3-D Silicon Structure</h4>
 
         <p>
-          We are happy to offer custom module designs for your application if
-          you’re looking for a specific light intensity, light uniformity, or
-          form factor. We can even design an optimal cooling solution for your
-          needs if you do not want to worry about thermal problems.
+          High heat density components can dissipate heat into a heat-spreader
+          (conduction transfer) and heat-sink (convection transfer) into the
+          surrounding air. Typically, a metal heat-sink has a metal base to
+          conduct heat and dissipate the heat into the surrounding environment.
+        </p>
+        <p>
+          Up to now, Silicon has seen limited work as a heat-spreader in many
+          applications in electronic and optical industry. However, Eotron
+          focused on developing 3D silicon structures to enhance thermal
+          management of high thermal flux devices that are 1mm2 to a few cm2 in
+          size. The 3D construction of our silicon structures utilize Eotron’s
+          patented "V-grooved interlock" technology to scale to any footprint
+          (allowed by silicon wafer size) up to a few centimeters in height.
         </p>
       </Bounce>
     </Section>
@@ -162,33 +104,3 @@ const IndexPage = () => (
 )
 
 export default IndexPage
-
-const ImagesContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  align-items: center;
-  justify-content: space-evenly;
-
-  img {
-    width: 24%;
-  }
-`
-const TableImageContainer = styled.div`
-  margin-top: 36px;
-  display: flex;
-  justify-content: space-between;
-
-  div {
-    width: 45%;
-    text-align: center;
-
-    img {
-      width: 100%;
-    }
-
-    p {
-      margin-bottom: 0px;
-    }
-  }
-`
