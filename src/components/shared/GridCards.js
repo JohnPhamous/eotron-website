@@ -17,7 +17,12 @@ import Flip from "react-reveal/Flip"
 const GridCards = ({ data }) => {
   return (
     <Container>
-      <Row style={{ marginBottom: `-60px`, justifyContent: `center` }}>
+      <Row
+        style={{
+          marginBottom: `-60px`,
+          justifyContent: `center`,
+        }}
+      >
         <Flip left cascade>
           {data.map(d => (
             <Col key={d.title} sm="12" md="4" lg="3">

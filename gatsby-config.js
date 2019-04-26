@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `ScanUV`,
+    title: `Eotron`,
     description: ``,
     author: `@johnphamous`,
   },
@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `ScanUV`,
-        short_name: `ScanUV`,
+        name: `Eotron`,
+        short_name: `Eotron`,
         start_url: `/`,
         background_color: `#22223A`,
         theme_color: `#22223A`,

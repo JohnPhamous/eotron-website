@@ -58,8 +58,8 @@ export default class ContactPage extends Component {
                   <p>4201 E Santa Ana St Suite F</p>
                   <p>Ontario, CA 91761</p>
                   <br />
-                  <p>(909) 490-7489</p>
-                  <p>sales@scanuv.com</p>
+                  <p>(760) 427-7117</p>
+                  <p>sales@eotron.com</p>
                 </CardBody>
               </Card>
             </div>
@@ -121,7 +121,7 @@ export default class ContactPage extends Component {
                 color: `white !important`,
                 background: `#22223A`,
               }}
-              href={`mailto:sales@scanuv.com?cc=&amp;bcc=&amp;subject=[${company}] — ${subject}&amp;body=${message}`}
+              href={`mailto:sales@eotron.com?cc=&amp;bcc=&amp;subject=[${company}] — ${subject}&amp;body=${message}`}
               theme="dark"
             >
               Send Message

@@ -13,7 +13,6 @@ import styled from "styled-components"
 import Routes from "../../../data/routes"
 import "./header.css"
 import Icon from "../../../images/icon.png"
-import LogoSrc from "../../../images/full-logo.png"
 
 export default class NavExample extends Component {
   constructor(props) {
@@ -84,7 +83,7 @@ export default class NavExample extends Component {
                 return (
                   <>
                     <NavbarBrand to="/" tag={Link} className="logo">
-                      <Logo src={LogoSrc} alt="ScanUV Logo" />
+                      <Logo src={Icon} alt="Logo" />
                     </NavbarBrand>
                     <NavItem key={r.to}>
                       <Link

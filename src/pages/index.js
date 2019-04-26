@@ -4,8 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/home/hero"
 import About from "../components/home/About"
-import Applications from "../components/home/Applications"
-import Services from "../components/home/Services"
+import Products from "../components/home/Products"
 import Testimonies from "../components/home/Testimonies"
 
 const IndexPage = () => (
@@ -14,9 +13,8 @@ const IndexPage = () => (
 
     <Hero />
     <About />
-    <Applications />
+    <Products />
     <Testimonies />
-    <Services />
   </Layout>
 )
 
