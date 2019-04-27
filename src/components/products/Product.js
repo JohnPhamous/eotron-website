@@ -142,7 +142,7 @@ class Product extends Component {
               />
             </ModalBodyContainer>
           </ModalBody>
-          <ModalFooter>
+          {/* <ModalFooter>
             {product.name !== "Lensing Options" ? (
               <RegularButton onClick={this.checkUserBeforeDownload}>
                 Download PDF
@@ -150,7 +150,7 @@ class Product extends Component {
             ) : (
               <PrimaryButton to="/contact">Contact Us</PrimaryButton>
             )}
-          </ModalFooter>
+          </ModalFooter> */}
         </Modal>
 
         <Modal

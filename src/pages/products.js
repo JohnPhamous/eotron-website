@@ -28,45 +28,6 @@ const IndexPage = () => (
     <Hero image={HeroImage} />
 
     <Section>
-      <h3>About our Products</h3>
-
-      <BulletPointsContainer>
-        {bulletPoints.map(p => (
-          <Card
-            key={p}
-            style={{
-              display: `flex`,
-              alignItems: `center`,
-              justifyContent: `center`,
-              textAlign: `center`,
-              background: `#22223A`,
-            }}
-          >
-            <CardBody>
-              <p style={{ color: `white`, marginTop: `0` }}>{p}</p>
-            </CardBody>
-          </Card>
-        ))}
-      </BulletPointsContainer>
-
-      {/* <ImageZoom
-        style={{ width: `30%`, marginTop: `30px` }}
-        image={{
-          src: "https://i.imgur.com/SwuWWUo.png",
-          alt: "",
-        }}
-        zoomImage={{
-          src: "https://i.imgur.com/SwuWWUo.png",
-          alt: "",
-        }}
-      /> */}
-    </Section>
-
-    <Section>
-      <ProductTable />
-    </Section>
-
-    <Section>
       <h3>Products</h3>
 
       <ProductsGrid products={ProductsData} />

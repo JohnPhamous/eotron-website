@@ -1,308 +1,186 @@
 export default [
   {
-    name: "Lensing Options",
-    primaryImage: "https://i.imgur.com/7u7LpgY.jpg",
+    name: "Silicon Heatsink",
+    primaryImage: "https://i.imgur.com/3IXi4Ux.png",
     secondaryImages: [
-      "https://i.imgur.com/TQZqod9.jpg",
-      "https://i.imgur.com/8hntfxq.jpg",
+      "https://i.imgur.com/e9LXSG9.jpg",
+      "https://i.imgur.com/oltLQZk.jpg",
+      "https://i.imgur.com/9whXAiW.png",
     ],
     description: `
       <p>
-      Lensing is available for all the packages with an LED pitch of 1.6mm.
+        Eotron’s Silicon Heatsink is designed to replace compact copper or aluminum heatsinks where the size, space and efficiency of the heatsink is crucial. Our Silicon Heatsink delivers 5 to 10 times more fin-surface area than metal heatsinks of the same size due to silicon’s ability to fabricate more fins and as thin as 10μm in size.
       </p>
       <p>
-        The way our packages are mounted to the 20x20mm heat spreader PCB allows us to place a collimating lens extremely close to the LED, allowing over 90% of the emitted light before it quickly diverges. Depending on the package being lensed, the light coming from the LED can be reduced from the typical 120 degrees of divergence to angles as small as 40 and 60 degrees.
+        Silicon Heatsinks can be used in a convective cooling or forced-air cooling configuration. Depending on the heat dissipation configuration, the base of the Silicon Heatsink can be soldered, epoxied or attached using various thermal compounds directly to any silicon IC chip or PCB.
       </p>
       <p>
-        For systems that require long distance light propagation, this initial lensing stage is an excellent option that helps reduce cost by reducing the size of any additional lenses that need to be used.
-      </p>
-      <p>
-        Please contact us if your system needs to meet specific light distribution or divergence angles.
+        Our proprietary fabrication techniques produced the most efficient heatsink designs (patented) while using a bulk low-cost process.
       </p>
       `,
     pdf: "",
   },
   {
-    name: "1x1 3535 — 50mW",
-    primaryImage: "https://i.imgur.com/lcjuFNm.jpg",
+    name: "Silicon Cold Plate (SCP)",
+    primaryImage: "https://i.imgur.com/hdlLGob.png",
     secondaryImages: [
-      "https://i.imgur.com/gkw3Y8N.jpg",
-      "https://i.imgur.com/Df2Z8YP.jpg",
+      "https://i.imgur.com/lDKpdul.png",
+      "https://i.imgur.com/hLXB1mJ.png",
+      "https://i.imgur.com/v55IjZF.png",
     ],
     description: `
         <p>
-        The 3535 line offers excellent thermal dissipation and utilizes high power LEDs inside its packages.  Packages can be purchased mounted to a small copper heat spreader PCB that needs further assembly or may be purchased with the package mounted into a larger heat spreader PCB that contains all the components necessary so that integration in to your system is as easy as a plugging in a connector.  Custom PCB sizes are available upon request.
+          Eotron’s Silicon Cold Plate was designed to replace copper or aluminum metal cold plates with silicon to provide better cooling efficiency, form-factor and thermal expansion match with silicon IC chips. Any IC chip can be mounted directly on the Silicon Cold Plate with electrical layout printed on the surface of SCP allowing the lowest thermal resistance from IC chip to liquid channel embedded in the SCP. 
+        </p>
+        <p>
+          The greatest advantage of the SCP product is delivering coolant directly underneath of high thermal load IC chips and without any thermal expansion mismatch. The SCP can be bonded to an PCB with solder bumps further isolating high thermal load ICs from those devices sensitive to heat.
+        </p>
+        <p>
+          Our Silicon Cold Plate has proven to deliver more than 80 watts/cm2 of heat dissipation in the smallest form factor of any cold plate design and SCP has a lower fouling factor than metal cold plate designs due to non-oxidation and non-chemical reacting physical property of silicon. Both surfaces of the SCP can be printed with electrical layout to bond IC chips reducing thermal resistance to a minimum. 
         </p>
 
+        <h3>Applications</h3>
         <ul>
-          <li>Radiant flux: 50mW</li>
+          <li>High power IC Chip cooling: CPU, GPU</li>
           <li>
-          Wavelength: 275nm +/-3nm (UVB wavelengths also available upon request)
+            High power RF Chip cooling
           </li>
           <li>
-          Operating Voltage: 5.4V
+            High power LED or lasers for illumination
           </li>
           <li>
-         Operating Current: 350mA
+            High power liquid cooling for IGBT in eletric and hybrid vehicles
           </li>
           <li>
-         Emission Area: 1.9mm x 1.9mm
-          </li>
-          <li>
-         Silicon Package Size: 3.5mm x 3.5mm x 1.5mm
-          </li>
-          <li>
-         Copper Heat Spreading PCB Size: 20mm x 20mm x 4mm
-          </li>
-          <li>
-         Optional Fully Equipped Heat Spreading PCB: 47mm x 47mm x 4mm
+            Satellite electronic package cooling
           </li>
         </ul>
       `,
-    pdf: "1x1 3535 - Revision1.pdf",
+    pdf: "",
   },
   {
-    name: "2x2 3535 — 200mW",
-    primaryImage: "https://i.imgur.com/R04lMvw.jpg",
+    name: "Silicon Optical TO Can",
+    primaryImage: "https://i.imgur.com/h8Iex5D.jpg",
     secondaryImages: [
-      "https://i.imgur.com/jz5iNKf.jpg",
-      "https://i.imgur.com/MADwBbl.jpg",
+      "https://i.imgur.com/DXK4rcO.jpg",
+      "https://i.imgur.com/YsPUW7T.png",
     ],
     description: `
-        <p>The 3535 line offers excellent thermal dissipation and utilizes high power LEDs inside its packages.  Packages can be purchased mounted to a small copper heat spreader PCB that needs further assembly or may be purchased with the package mounted into a larger heat spreader PCB that contains all the components necessary so that integration in to your system is as easy as a plugging in a connector.  Custom PCB sizes are available upon request.</p>
+        <p>Eotron’s all Silicon TO-Can package is designed to replace a conventional optical metal TO-Can packages. This package was designed to improve thermal conductivity and lower production cost. The Silicon TO-Can package consists of three separate silicon components and an optical window to package any small photonic device such as edge-emitting Laser Diodes, VCSELs, UV LEDs or high power LEDs. Each silicon component and window are bonded together to seal the light source.</p>
+
+        <p>Among the advantages of our Silicon TO-Can package is eliminating wire-bonding by direct bonding of the device and flip-chip bonding of TO-Can package to improve thermal dissipation. No wire-bonding and better thermal dissipation and lower circuit inductance allows the device to operate at high frequency and higher peak power operation.</p>
+
+        <p>Wafer Scale assembly of the silicon package and device using Pick and Place robots allow high volume production and lower manufacturing cost.</p>
 
         <ul>
           <li>
-          Radiant flux: 200mW
+          Low to moderate average power laser illuminator
           </li>
           <li>
-          Wavelength: 275nm +/-3nm (UVB wavelengths also available upon request)
+          High power radar sensor
           </li>
           <li>
-          Operating Voltage: 10.8V
+          High power LED or UV LED
           </li>
           <li>
-          Operating Current: 700mA
+          High frequency and current modulation illumination light source
           </li>
           <li>
-          Emission Area: 5.5mm x 5.5mm
-          </li>
-          <li>
-          Silicon Package Size: 7.2mm x 7.2mm x 1.5mm
-          </li>
-          <li>
-          Copper Heat Spreading PCB Size: 20mm x 20mm x 4mm
-          </li>
-          <li>
-          Optional Fully Equipped Heat Spreading PCB: 47mm x 47mm x 4mm
+          TO-Can datacom device
           </li>
         </ul>
       `,
-    pdf: "2x2 3535 - Revision1.pdf",
+    pdf: "",
   },
   {
-    name: "3x3 3535 — 450mW",
-    primaryImage: "https://i.imgur.com/CrmxbLd.jpg",
+    name: "Silicon Laser Packaging",
+    primaryImage: "https://i.imgur.com/LIZ5roG.png",
+    secondaryImages: ["https://i.imgur.com/p5fFSIJ.png"],
+    description: `
+        <p>Eotron’s Patented Silicon-based Laser packaging was designed to mount multiple high power diode bars (Stacks) in a liquid cooled configuration. Laser Diode Bars are bonded to each side of our proprietary Silicon Fins in a 1-bar, 2-bar, 5-bar or 10-bar configuration using soft-solder. Each Silicon Fin has internal ’Macro’ water channels so each Diode Bar is individually cooled. The package consists of silicon-base, silicon-spacer and silicon-fins to assembly any 1mm x 10mm or 2mm x 10mm laser diode bar.</p>
+
+        <p>
+          Our liquid cooled silicon diode stack maximizes brightness in a 10mm x 10mm active area, emitting up to 1 kW, and the silicon laser package delivers a thermal resistance of less than 0.1°C/watts in 10mm2 area. 
+        </p>
+
+        <p>
+          Due to a special tooling requirement and assembly techniques, a sub-assembled silicon laser package can be purchased for your application. 
+        </p>
+      `,
+    pdf: "",
+  },
+  {
+    name: "Silicon Heat Reservoir",
+    primaryImage: "https://i.imgur.com/FEAwoGp.jpg",
     secondaryImages: [
-      "https://i.imgur.com/TeJd5Fa.jpg",
-      "https://i.imgur.com/wE6AgbA.jpg",
+      "https://i.imgur.com/4N28Hs8.jpg",
+      "https://i.imgur.com/pOMOmtb.jpg",
+      "https://i.imgur.com/znohNR8.jpg",
     ],
     description: `
-        <p>The 3535 line offers excellent thermal dissipation and utilizes high power LEDs inside its packages.  Packages can be purchased mounted to a small copper heat spreader PCB that needs further assembly or may be purchased with the package mounted into a larger heat spreader PCB that contains all the components necessary so that integration in to your system is as easy as a plugging in a connector.  Custom PCB sizes are available upon request.</p>
+        <p>Eotron’s Silicon Heat Reservoir (SHR) is based on the concept of absorbing waste heat using Phase-Change-Material (PCM) to slowly absorb and dissipate heat over time, smoothing out thermal loading in a pulsed operation. Our Silicon Heat Reservoir (SHR) is constructed using mono-crystal silicon to spread heat in a PCM silicon filled container, allowing waste heat to efficiently migrate from the heat source to the PCM. The SHR allows a device to maintain operating temperatures slightly below the melting temperature of PCM until it reaches saturation. Typically, PCM expands thermal capacity by a factor of 5 to 8 times more compared to other solid thermal materials.</p>
 
+        <p>
+          This silicon structure is designed to maintain device temperature under certain heat loading conditions. Optimizing the design of the silicon structure is needed to manage the overall thermal performance of the heat source under variable ambient conditions.
+        </p>
+
+        <p>
+          The design of SHR can be optimized according to customer needs and application requirements.
+        </p>
+
+        <h3>Applications</h3>
         <ul>
           <li>
-          Radiant flux: 450mW
+            High peak power illumination
           </li>
           <li>
-          Wavelength: 275nm +/-3nm (UVB wavelengths also available upon request)
+            Laser or LED power driver
           </li>
           <li>
-          Operating Voltage: 16.2V
+            Cellular phone IC thermal management
           </li>
           <li>
-          Operating Current: 1050mA
+            Lithium ion battery thermal management
           </li>
           <li>
-          Emission Area: 9.2mm x 9.2mm
+            High peak power and low duty cycle devices
           </li>
           <li>
-          Silicon Package Size: 10.8mm x 10.8mm x 1.5mm
-          </li>
-          <li>
-          Copper Heat Spreading PCB Size: 20mm x 20mm x 4mm
-          </li>
-          <li>
-          Optional Fully Equipped Heat Spreading PCB: 47mm x 47mm x 4mm
+            RF Circiuts
           </li>
         </ul>
       `,
-    pdf: "3x3 3535 - Revision1.pdf",
+    pdf: "",
   },
   {
-    name: "4x4 3535 — 800mW",
-    primaryImage: "https://i.imgur.com/XYyNuLr.jpg",
+    name: "Silicon Thermal Isolation",
+    primaryImage: "https://i.imgur.com/riprtmR.jpg",
     secondaryImages: [
-      "https://i.imgur.com/aXaIESg.jpg",
-      "https://i.imgur.com/1eH6fpn.jpg",
+      "https://i.imgur.com/6mBSxUv.jpg",
+      "https://i.imgur.com/gZb8mJG.jpg",
+      "https://i.imgur.com/fn2fd5R.jpg",
     ],
     description: `
-        <p>The 3535 line offers excellent thermal dissipation and utilizes high power LEDs inside its packages.  Packages can be purchased mounted to a small copper heat spreader PCB that needs further assembly or may be purchased with the package mounted into a larger heat spreader PCB that contains all the components necessary so that integration in to your system is as easy as a plugging in a connector.  Custom PCB sizes are available upon request.</p>
-
-        <ul>
-          <li>
-          Radiant flux: 800mW
-          </li>
-          <li>
-          Wavelength: 275nm +/-3nm (UVB wavelengths also available upon request)
-          </li>
-          <li>
-          Operating Voltage: 21.6V
-          </li>
-          <li>
-          Operating Current: 1400mA
-          </li>
-          <li>
-          Emission Area: 12.8mm x 12.8mm
-          </li>
-          <li>
-          Silicon Package Size: 14.5mm x 14.5mm x 1.5mm
-          </li>
-          <li>
-          Copper Heat Spreading PCB Size: 20mm x 20mm x 4mm
-          </li>
-          <li>
-          Optional Fully Equipped Heat Spreading PCB: 47mm x 47mm x 4mm
-          </li>
-        </ul>
-      `,
-    pdf: "4x4 3535 - Revision1.pdf",
-  },
-  {
-    name: "2x2 1616 — 200mW",
-    primaryImage: "https://i.imgur.com/23mZXxI.png",
-    secondaryImages: [""],
-    description: `
-      <p>The 1616 line offers extremely high-power density and is the ideal package choice if your system needs light collimation.  The 1616 line packages have extremely low thermal resistance that guarantee the LEDs wont fail prematurely due to thermal issues.  
+      <p>
+        Eotron’s Silicon Thermal Isolator (STI) is based on a concept of separating the thermal path between a high heat producing device and an adjacent temperature sensitive device. The specially designed and patented silicon structure allows separation of any heat generating device to a device which may be sensitive to temperature.   
       </p>
       <p>
-      Packages can be purchased mounted to a small copper heat spreader PCB that needs further assembly or may be purchased with the package mounted into a larger heat spreader PCB that contains all the components necessary so that integration in to your system is as easy as a plugging in a connector.  Custom PCB sizes are available upon request.
+        Our Silicon Thermal Isolator works as a heat spreader along with a special patented structure added to the silicon, which isolates the thermal ground for each IC chip. Most designs also use the electrical ground as the thermal ground. This results in all heat generating devices (IC chips) mounted on PCB to experience higher junction temperatures due to the temperature rise in the ground plane. Our Silicon Thermal Isolator (STI) mounted on the heat generating and adjacent heat-sensitive devices improves the performance and life-time of all devices. Also, a STI can be used as a silicon interposer with heat separating structure embedded in the interposer. Data shows the STI can achieve more than 10 degrees of temperature difference between two different areas in single Silicon Thermal Isolator. 
+      </p>
+
+      <p>
+        We can provide more specific information depending on your application. 
       </p>
 
       <ul>
         <li>
-        Radiant flux: 200mW
+          High bandwidth datacom device-thermal separation between transmitter and receiver
         </li>
         <li>
-        Wavelength: 275nm +/-3nm (UVB wavelengths also available upon request)
-        </li>
-        <li>
-        Operating Voltage: 10.8V
-        </li>
-        <li>
-        Operating Current: 700mA
-        </li>
-        <li>
-        Emission Area: 3.5mm x 3.5mm
-        </li>
-        <li>
-        Silicon Package Size: 4.4mm x 4.4mm x 1.5mm
-        </li>
-        <li>
-        Copper Heat Spreading PCB Size: 20mm x 20mm x 4mm
-        </li>
-        <li>
-        Optional Fully Equipped Heat Spreading PCB: 47mm x 47mm x 4mm
+          Multiple IC chip cooling through thermal ground separation
         </li>
       </ul>
   `,
-    pdf: "2x2 1616 - Revision1.pdf",
-  },
-  {
-    name: "3x3 1616 — 450mW",
-    primaryImage: "https://i.imgur.com/kUnGLOC.jpg",
-    secondaryImages: [
-      "https://i.imgur.com/A0SL70O.jpg",
-      "https://i.imgur.com/DS7SXcy.jpg",
-      "https://i.imgur.com/dvBCMvF.jpg",
-    ],
-    description: `
-      <p>The 1616 line offers extremely high-power density and is the ideal package choice if your system needs light collimation.  The 1616 line packages have extremely low thermal resistance that guarantee the LEDs wont fail prematurely due to thermal issues.</p>
-
-      <p>Packages can be purchased mounted to a small copper heat spreader PCB that needs further assembly or may be purchased with the package mounted into a larger heat spreader PCB that contains all the components necessary so that integration in to your system is as easy as a plugging in a connector.  Custom PCB sizes are available upon request.</p>
-
-      <ul>
-        <li>
-        Radiant flux: 450mW
-        </li>
-        <li>
-        Wavelength: 275nm +/-3nm (UVB wavelengths also available upon request)
-        </li>
-        <li>
-        Operating Voltage: 16.2V
-        </li>
-        <li>
-        Operating Current: 1050mA
-        </li>
-        <li>
-        Emission Area: 5.1mm x 5.1mm
-        </li>
-        <li>
-        Silicon Package Size: 6.0mm x 6.0mm x 1.5mm
-        </li>
-        <li>
-        Copper Heat Spreading PCB Size: 20mm x 20mm x 4mm
-        </li>
-        <li>
-        Optional Fully Equipped Heat Spreading PCB: 47mm x 47mm x 4mm
-        </li>
-      </ul>
-    `,
-    pdf: "3x3 1616 - Revision1.pdf",
-  },
-  {
-    name: "5x5 1616 — 1250mW",
-    primaryImage: "https://i.imgur.com/n9p8p0z.jpg",
-    secondaryImages: [
-      "https://i.imgur.com/JpoExff.jpg",
-      "https://i.imgur.com/p3pKbiS.jpg",
-      "https://i.imgur.com/gBiCMPB.jpg",
-      "https://i.imgur.com/OdOEqel.jpg",
-      "https://i.imgur.com/zX4FUKC.jpg",
-      "https://i.imgur.com/kt1Bxrk.jpg",
-    ],
-    description: `
-      <p>The 1616 line offers extremely high-power density and is the ideal package choice if your system needs light collimation.  The 1616 line packages have extremely low thermal resistance that guarantee the LEDs wont fail prematurely due to thermal issues.</p>
-
-      <p>Packages can be purchased mounted to a small copper heat spreader PCB that needs further assembly or may be purchased with the package mounted into a larger heat spreader PCB that contains all the components necessary so that integration in to your system is as easy as a plugging in a connector.  Custom PCB sizes are available upon request.</p>
-
-      <ul>
-        <li>
-        Radiant flux: 1250mW
-        </li>
-        <li>
-        Wavelength: 275nm +/-3nm (UVB wavelengths also available upon request)
-        </li>
-        <li>
-        Operating Voltage: 27.0V
-        </li>
-        <li>
-        Operating Current: 1750mA
-        </li>
-        <li>
-        Emission Area: 8.3mm x 8.3mm
-        </li>
-        <li>
-        Silicon Package Size: 10.0mm x 10.0mm x 1.5mm
-        </li>
-        <li>
-        Copper Heat Spreading PCB Size: 20mm x 20mm x 4mm
-        </li>
-        <li>
-        Optional Fully Equipped Heat Spreading PCB: 47mm x 47mm x 4mm
-        </li>
-      </ul>
-    `,
-    pdf: "5x5 1616 - Revision1.pdf",
+    pdf: "",
   },
 ]
