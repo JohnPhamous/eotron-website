@@ -1,0 +1,25 @@
+{
+  "name": "eotron-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "slider.js",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnPhamous/eotron-website.git"
+  },
+  "keywords": [],
+  "author": "John Pham <johnphammail@gmail.com> (pham.codes)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnPhamous/eotron-website/issues"
+  },
+  "homepage": "https://github.com/JohnPhamous/eotron-website#readme"
+}
