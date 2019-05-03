@@ -100,7 +100,7 @@ a:active {
 @font-face {
   font-family: "untitled-font-1";
   src: url("fonts/untitled-font-1.eot");
-  src: url("fonts/untitled-font-1.eot%3F") format("embedded-opentype"),
+  src: url("fonts/untitled-font-2.eot") format("embedded-opentype"),
     url("fonts/untitled-font-1.woff") format("woff"),
     url("fonts/untitled-font-1.ttf") format("truetype"),
     url("fonts/untitled-font-1.svg") format("svg");
